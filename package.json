@@ -8,12 +8,18 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/p5": "^1.3.0",
+    "p5": "^1.4.0",
     "parcel": "^2.0.0",
     "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
